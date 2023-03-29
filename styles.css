@@ -1,18 +1,24 @@
+body {
+  margin: auto;
+}
 .1_2 { 
 	overflow:hidden;
-}.e1_2 { 
+}
+.e1_2 { 
 	background-color:rgba(255, 255, 255, 1);
 	width:1147px;
 	height:1728px;
 	position:absolute;
-}.e1_3 { 
+}
+.e1_3 { 
 	background-color:rgba(125.37500202655792, 28.731770664453506, 28.731770664453506, 1);
 	width:1147px;
 	height:92px;
 	position:absolute;
 	left:0px;
 	top:0px;
-}.e1_4 { 
+}
+.e1_4 { 
 	width:1147px;
 	height:683px;
 	position:absolute;
@@ -21,7 +27,8 @@
 	background-image:url(images/coffee_shop_1.png);
 	background-repeat:no-repeat;
 	background-size:cover;
-}.e1_5 { 
+}
+.e1_5 { 
 	color:rgba(255, 255, 255, 1);
 	width:132px;
 	height:36px;
@@ -32,7 +39,8 @@
 	text-align:center;
 	font-size:16px;
 	letter-spacing:0;
-}.e1_7 { 
+}
+.e1_7 { 
 	color:rgba(255, 255, 255, 1);
 	width:132px;
 	height:36px;
@@ -43,7 +51,8 @@
 	text-align:center;
 	font-size:16px;
 	letter-spacing:0;
-}.e1_6 { 
+}
+.e1_6 { 
 	color:rgba(255, 255, 255, 1);
 	width:132px;
 	height:36px;
@@ -54,14 +63,16 @@
 	text-align:center;
 	font-size:16px;
 	letter-spacing:0;
-}.e2_11 { 
+}
+.e2_11 { 
 	background-color:rgba(197.62499392032623, 170.451557636261, 170.451557636261, 1);
 	width:1147px;
 	height:357px;
 	position:absolute;
 	left:0px;
 	top:775px;
-}.e2_14 { 
+}
+.e2_14 { 
 	width:307px;
 	height:265px;
 	position:absolute;
@@ -70,7 +81,8 @@
 	background-image:url(images/______________5__1.png);
 	background-repeat:no-repeat;
 	background-size:cover;
-}.e2_13 { 
+}
+.e2_13 { 
 	background-color:rgba(125.00000014901161, 29.000000171363354, 29.000000171363354, 0.20000000298023224);
 	width:103px;
 	height:92px;
@@ -80,7 +92,8 @@
 	background-image:url(images/coffee_machine_line_minimal_icon_isolated_vector_37950614_1.png);
 	background-repeat:no-repeat;
 	background-size:cover;
-}.e2_15 { 
+}
+.e2_15 { 
 	color:rgba(0, 0, 0, 1);
 	width:422px;
 	height:258px;
@@ -91,7 +104,8 @@
 	text-align:center;
 	font-size:24px;
 	letter-spacing:0;
-}.e2_17 { 
+}
+.e2_17 { 
 	width:1147px;
 	height:452px;
 	position:absolute;
@@ -100,14 +114,16 @@
 	background-image:url(images/images_1.png);
 	background-repeat:no-repeat;
 	background-size:cover;
-}.e4_18 { 
+}
+.e4_18 { 
 	background-color:rgba(85.0000025331974, 0.35416379570961, 0.35416379570961, 1);
 	width:1147px;
 	height:144px;
 	position:absolute;
 	left:0px;
 	top:1584px;
-}.e4_24 { 
+}
+.e4_24 { 
 	color:rgba(255, 255, 255, 1);
 	width:364px;
 	height:50px;
@@ -118,7 +134,8 @@
 	text-align:center;
 	font-size:24px;
 	letter-spacing:0;
-}.e4_26 { 
+}
+.e4_26 { 
 	color:rgba(255, 255, 255, 1);
 	width:423px;
 	height:38px;
@@ -129,7 +146,8 @@
 	text-align:center;
 	font-size:24px;
 	letter-spacing:0;
-}$inter-font : "Inter"
+}
+$inter-font : "Inter"
 .4_27 { 
 	overflow:hidden;
 }
