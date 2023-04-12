@@ -1,385 +1,118 @@
 body {
-  margin: auto;
+      background-color: #C6AAAA;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh; 
+    }
+
+    nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
 }
-.1_2 { 
-	overflow:hidden;
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
-.e1_2 { 
-	background-color:rgba(255, 255, 255, 1);
-	width:1147px;
-	height:1728px;
-	position:absolute;
+
+.content > img {
+  width: 50%;
+  max-width: 400px;
+  height: auto;
+  margin-bottom: 20px;
 }
-.e1_3 { 
-	background-color:rgba(125.37500202655792, 28.731770664453506, 28.731770664453506, 1);
-	width:1147px;
-	height:92px;
-	position:absolute;
-	left:0px;
-	top:0px;
+    .content img {
+      display: inline-block;
+      max-width: 100%;
+      height: auto;
+
+    }
+    header {
+      background-color: #7D1D1D;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    header nav {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    header img {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      vertical-align: middle;
+    }
+
+    header nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-right: 20px;
+    }
+
+    footer {
+      background-color: #7D1D1D;
+      text-align: center;
+      color: #fff;
+      padding: 10px 0;
+      margin-top: auto;
+      bottom: 0;
+      width: 100%;
+
+    }
+    .left-image {
+  flex: 0 0 50%;
+  width: 100%;
+  margin-right: 20px;
+  max-width: 200px;
 }
-.e1_4 { 
-	width:1147px;
-	height:683px;
-	position:absolute;
-	left:0px;
-	top:92px;
-	background-image:url(images/coffee_shop_1.png);
-	background-repeat:no-repeat;
-	background-size:cover;
+.imageAndText{
+  display: flex;
+  flex-basis: center;
+  justify-content: center;
+  align-items: center;
+  width: 51%;
+  max-width: 100%
+  margin-top: 20px;
+  margin-bottom: 20px
 }
-.e1_5 { 
-	color:rgba(255, 255, 255, 1);
-	width:132px;
-	height:36px;
-	position:absolute;
-	left:347px;
-	top:34px;
-	font-family:Inter;
-	text-align:center;
-	font-size:16px;
-	letter-spacing:0;
+
+.right-text {
+  flex: 1 1 50%;
+  width: 100%;
+  max-width: 200px;
+  background-color: #7D1D1D;
+  border-radius: 10px;
+  color: #FFFFFF;
+  overflow: hidden;
+  padding: 20px;
 }
-.e1_7 { 
-	color:rgba(255, 255, 255, 1);
-	width:132px;
-	height:36px;
-	position:absolute;
-	left:83px;
-	top:34px;
-	font-family:Inter;
-	text-align:center;
-	font-size:16px;
-	letter-spacing:0;
+.text-background{
+  background-color: #7D1D1D;
+  color: #FFFFFF;
+  overflow: hidden;
+  padding: 20px;
+  border-radius: 10px;
 }
-.e1_6 { 
-	color:rgba(255, 255, 255, 1);
-	width:132px;
-	height:36px;
-	position:absolute;
-	left:215px;
-	top:34px;
-	font-family:Inter;
-	text-align:center;
-	font-size:16px;
-	letter-spacing:0;
+
+.text-box {
+  margin-bottom: 20px;
 }
-.e2_11 { 
-	background-color:rgba(197.62499392032623, 170.451557636261, 170.451557636261, 1);
-	width:1147px;
-	height:357px;
-	position:absolute;
-	left:0px;
-	top:775px;
-}
-.e2_14 { 
-	width:307px;
-	height:265px;
-	position:absolute;
-	left:83px;
-	top:823px;
-	background-image:url(images/______________5__1.png);
-	background-repeat:no-repeat;
-	background-size:cover;
-}
-.e2_13 { 
-	background-color:rgba(125.00000014901161, 29.000000171363354, 29.000000171363354, 0.20000000298023224);
-	width:103px;
-	height:92px;
-	position:absolute;
-	left:522px;
-	top:0px;
-	background-image:url(images/coffee_machine_line_minimal_icon_isolated_vector_37950614_1.png);
-	background-repeat:no-repeat;
-	background-size:cover;
-}
-.e2_15 { 
-	color:rgba(0, 0, 0, 1);
-	width:422px;
-	height:258px;
-	position:absolute;
-	left:426px;
-	top:830px;
-	font-family:Inter;
-	text-align:center;
-	font-size:24px;
-	letter-spacing:0;
-}
-.e2_17 { 
-	width:1147px;
-	height:452px;
-	position:absolute;
-	left:0px;
-	top:1132px;
-	background-image:url(images/images_1.png);
-	background-repeat:no-repeat;
-	background-size:cover;
-}
-.e4_18 { 
-	background-color:rgba(85.0000025331974, 0.35416379570961, 0.35416379570961, 1);
-	width:1147px;
-	height:144px;
-	position:absolute;
-	left:0px;
-	top:1584px;
-}
-.e4_24 { 
-	color:rgba(255, 255, 255, 1);
-	width:364px;
-	height:50px;
-	position:absolute;
-	left:26px;
-	top:1606px;
-	font-family:Inter;
-	text-align:center;
-	font-size:24px;
-	letter-spacing:0;
-}
-.e4_26 { 
-	color:rgba(255, 255, 255, 1);
-	width:423px;
-	height:38px;
-	position:absolute;
-	left:612px;
-	top:1606px;
-	font-family:Inter;
-	text-align:center;
-	font-size:24px;
-	letter-spacing:0;
-}
-$inter-font : "Inter"
-.4_27 { 
-	overflow:hidden;
-}
-.e4_27 { 
-	background-color:rgba(255, 255, 255, 1);
-	width:1147px;
-	height:2168px;
-	position:absolute;
-}
-.e4_28 { 
-	background-color:rgba(85.0000025331974, 0.35416379570961, 0.35416379570961, 1);
-	width:1147px;
-	height:144px;
-	position:absolute;
-	left:0px;
-	top:2024px;
-}
-.e4_29 { 
-	color:rgba(255, 255, 255, 1);
-	width:364px;
-	height:50px;
-	position:absolute;
-	left:26px;
-	top:2046px;
-	font-family:Inter;
-	text-align:center;
-	font-size:24px;
-	letter-spacing:0;
-}
-.e4_30 { 
-	color:rgba(255, 255, 255, 1);
-	width:423px;
-	height:38px;
-	position:absolute;
-	left:612px;
-	top:2046px;
-	font-family:Inter;
-	text-align:center;
-	font-size:24px;
-	letter-spacing:0;
-}
-.e4_31 { 
-	background-color:rgba(125.37500202655792, 28.731770664453506, 28.731770664453506, 1);
-	width:1147px;
-	height:92px;
-	position:absolute;
-	left:0px;
-	top:0px;
-}
-.e4_32 { 
-	color:rgba(255, 255, 255, 1);
-	width:132px;
-	height:36px;
-	position:absolute;
-	left:347px;
-	top:34px;
-	font-family:Inter;
-	text-align:center;
-	font-size:16px;
-	letter-spacing:0;
-}
-.e4_33 { 
-	color:rgba(255, 255, 255, 1);
-	width:132px;
-	height:36px;
-	position:absolute;
-	left:83px;
-	top:34px;
-	font-family:Inter;
-	text-align:center;
-	font-size:16px;
-	letter-spacing:0;
-}
-.e4_34 { 
-	color:rgba(255, 255, 255, 1);
-	width:132px;
-	height:36px;
-	position:absolute;
-	left:215px;
-	top:34px;
-	font-family:Inter;
-	text-align:center;
-	font-size:16px;
-	letter-spacing:0;
-}
-.e4_35 { 
-	background-color:rgba(125.00000014901161, 29.000000171363354, 29.000000171363354, 0.20000000298023224);
-	width:103px;
-	height:92px;
-	position:absolute;
-	left:522px;
-	top:0px;
-	background-image:url(images/coffee_machine_line_minimal_icon_isolated_vector_37950614_2.png);
-	background-repeat:no-repeat;
-	background-size:cover;
-}
-.e4_36 { 
-	width:1147px;
-	height:683px;
-	position:absolute;
-	left:0px;
-	top:92px;
-	background-image:url(images/coffee_shop_2.png);
-	background-repeat:no-repeat;
-	background-size:cover;
-}
-.e4_37 { 
-	background-color:rgba(197.62499392032623, 170.451557636261, 170.451557636261, 1);
-	width:1147px;
-	height:1249px;
-	position:absolute;
-	left:0px;
-	top:775px;
-}
-.e4_42 { 
-	width:664px;
-	height:314px;
-	position:absolute;
-	left:46px;
-	top:792px;
-}
-.e4_38 { 
-	background-color:rgba(137.06250607967377, 0, 0, 1);
-	width:664px;
-	height:314px;
-	position:absolute;
-	left:0px;
-	top:0px;
-}
-.e4_40 { 
-	width:312px;
-	height:314px;
-	position:absolute;
-	left:0px;
-	top:0px;
-	background-image:url(images/images__1__1.png);
-	background-repeat:no-repeat;
-	background-size:cover;
-}
-.e4_41 { 
-	color:rgba(255, 255, 255, 1);
-	width:306px;
-	height:252px;
-	position:absolute;
-	left:332px;
-	top:28px;
-	font-family:Inter;
-	text-align:center;
-	font-size:Symbol(figma.mixed)px;
-	letter-spacing:0;
-}
-.e4_48 { 
-	width:664px;
-	height:377px;
-	position:absolute;
-	left:46px;
-	top:1554px;
-}
-.e4_49 { 
-	background-color:rgba(137.06250607967377, 0, 0, 1);
-	width:664px;
-	height:377px;
-	position:absolute;
-	left:0px;
-	top:0px;
-}
-.e4_50 { 
-	width:312px;
-	height:377px;
-	position:absolute;
-	left:0px;
-	top:0px;
-	background-image:url(images/images__1__1.png);
-	background-repeat:no-repeat;
-	background-size:cover;
-}
-.e4_51 { 
-	color:rgba(255, 255, 255, 1);
-	width:316px;
-	height:323px;
-	position:absolute;
-	left:332px;
-	top:13px;
-	font-family:Inter;
-	text-align:center;
-	font-size:24px;
-	letter-spacing:0;
-}
-.e4_43 { 
-	width:664px;
-	height:392px;
-	position:absolute;
-	left:46px;
-	top:1134px;
-}
-.e4_44 { 
-	background-color:rgba(137.06250607967377, 0, 0, 1);
-	width:664px;
-	height:392px;
-	position:absolute;
-	left:0px;
-	top:0px;
-}
-.e4_45 { 
-	width:312px;
-	height:392px;
-	position:absolute;
-	left:0px;
-	top:0px;
-	background-image:url(images/images__1__1.png);
-	background-repeat:no-repeat;
-	background-size:cover;
-}
-.e4_46 { 
-	color:rgba(255, 255, 255, 1);
-	width:306px;
-	height:336px;
-	position:absolute;
-	left:332px;
-	top:14px;
-	font-family:Inter;
-	text-align:center;
-	font-size:24px;
-	letter-spacing:0;
-}
-.e4_52 { 
-	width:437px;
-	height:1054px;
-	position:absolute;
-	left:710px;
-	top:826px;
-	background-image:url(images/espresso_drinks_scaled_1.png);
-	background-repeat:no-repeat;
-	background-size:cover;
+
+.text-box p {
+  margin: 0;
 }
